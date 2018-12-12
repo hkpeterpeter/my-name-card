@@ -1,5 +1,8 @@
 {
-  "name": "App",
+  "short_name": "Name Card",
+  "name": "Peter's Name Card",
+  "background_color": "white",
+  "display": "standalone",
   "icons": [
     {
       "src": "android-icon-36x36.png",
