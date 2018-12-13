@@ -19,8 +19,16 @@ My digital name card: [https://hkpeterpeter.github.io/my-name-card/](https://hkp
 
 ![GitHub page](screenshots/publish_github_page.png)
 
+7. In **iOS**, open the website in **Safari**, choose **Add to Home Screen**:
 
-## Reference
+![Add to Home Screen](screenshots/add_to_homescreen.jpg)
+
+8. Now, you have your own name card webapp
+
+![Your namecard webapp](screenshots/your_name_card_webapp.png)
+
+
+## References
 
 - [3D transformation explanation in CSS](https://3dtransforms.desandro.com/)
 - [CoolPen demo by the author](https://codepen.io/desandro/pen/KRWjzm)
