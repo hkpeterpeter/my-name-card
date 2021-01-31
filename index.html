@@ -151,12 +151,21 @@
                 document.getElementById('title-name').innerText = text;
             }
 
+            // click
             document.getElementById('icon-fb').addEventListener('click', function() { changeSide("right"); changeTitle("Facebook"); });
             document.getElementById('icon-ig').addEventListener('click', function() { changeSide("back"); changeTitle("Instagram"); });
             document.getElementById('icon-linkedin').addEventListener('click', function() { changeSide("left"); changeTitle('LinkedIn');});
             document.getElementById('icon-whatsapp').addEventListener('click', function() { changeSide("top"); changeTitle('Whatsapp'); });
             document.getElementById('icon-wechat').addEventListener('click', function() { changeSide("bottom"); changeTitle('WeChat'); });
             document.getElementById('cube').addEventListener('click', function() { changeSide("front"); changeTitle('Hackathon Expert 🇭🇰');});
+
+            // mouseover
+            document.getElementById('icon-fb').addEventListener('mouseover', function() { changeSide("right"); changeTitle("Facebook"); });
+            document.getElementById('icon-ig').addEventListener('mouseover', function() { changeSide("back"); changeTitle("Instagram"); });
+            document.getElementById('icon-linkedin').addEventListener('mouseover', function() { changeSide("left"); changeTitle('LinkedIn');});
+            document.getElementById('icon-whatsapp').addEventListener('mouseover', function() { changeSide("top"); changeTitle('Whatsapp'); });
+            document.getElementById('icon-wechat').addEventListener('mouseover', function() { changeSide("bottom"); changeTitle('WeChat'); });
+            document.getElementById('cube').addEventListener('mouseover', function() { changeSide("front"); changeTitle('Hackathon Expert 🇭🇰');});
 
         </script>
         
