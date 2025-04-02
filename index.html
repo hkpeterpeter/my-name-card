@@ -94,7 +94,7 @@
             .cube__face--back   { background-image: url("images/new-qrcode-peter-instagram.png"); }
             .cube__face--left   { background-image: url("images/new-qrcode-peter-linkedin.png"); }
             .cube__face--top    { background-image: url("images/new-qrcode-peter-whatsapp.png"); }
-            .cube__face--bottom { background-image: url("images/new-qrcode-peter-wechat.jpg"); }
+            .cube__face--bottom { background-image: url("images/new-qrcode-peter-wechat.png"); }
 
             .cube__face--front  { transform: rotateY(  0deg) translateZ(100px); }
             .cube__face--right  { transform: rotateY( 90deg) translateZ(100px); }
@@ -149,15 +149,7 @@
                     <div id="title-name" class="title-name"></div>
                     <hr>
                     <div class="icon-wrapper">
-                        <!--
-                        <i id="icon-fb" class="fab fa-facebook fa-2x icon"></i>
-                        <i id="icon-ig" class="fab fa-instagram fa-2x icon"></i>
-                        <i id="icon-wechat" class="fab fa-weixin fa-2x icon"></i>
-                        <i id="icon-linkedin" class="fab fa-linkedin fa-2x icon"></i>
-                        <i id="icon-whatsapp" class="fab fa-whatsapp-square fa-2x icon"></i>
-                        <i id="icon-x" class="fab fa-twitter-square fa-2x icon"></i>
-                        -->
-
+                        
                         <i id="icon-threads" class="icon fa-brands fa-square-threads fa-2xl"></i>
                         <i id="icon-ig" class="icon fa-brands fa-square-instagram fa-2xl"></i>
                         <i id="icon-wechat" class="icon fa-brands fa-weixin fa-2xl"></i>
@@ -200,8 +192,8 @@
             document.getElementById('icon-ig').addEventListener('mouseover', function() { changeSide("back"); changeTitle("Instagram"); });
             document.getElementById('icon-linkedin').addEventListener('mouseover', function() { changeSide("left"); changeTitle('LinkedIn');});
             document.getElementById('icon-whatsapp').addEventListener('mouseover', function() { changeSide("top"); changeTitle('Whatsapp'); });
-            document.getElementById('icon-wechat').addEventListener('mouseover', function() { changeSide("bottom"); changeTitle('WeChat'); });
-            document.getElementById('icon-x').addEventListener('mouseover', function() { changeSide("front"); changeTitle('X');});
+            document.getElementById('icon-wechat').addEventListener('mouseover', function() { changeSide("bottom"); changeTitle('WeChat App'); });
+            document.getElementById('icon-x').addEventListener('mouseover', function() { changeSide("front"); changeTitle('X (Twitter)');});
 
             // default rotation
             changeSide("bottom"); 
