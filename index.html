@@ -71,6 +71,8 @@
                 transform-style: preserve-3d;
                 transform: translateZ(-100px);
                 transition: transform 1s;
+
+                
             }
 
             .cube.show-front  { transform: translateZ(-100px) rotateY(   0deg); }
@@ -87,12 +89,12 @@
                 border: 2px solid lightgray;
             }
 
-            .cube__face--front  { background-image: url("images/qrcode-peter-x.png"); }
-            .cube__face--right  { background-image: url("images/qrcode-peter-threads.png"); }
-            .cube__face--back   { background-image: url("images/qrcode-peter-instagram.png"); }
-            .cube__face--left   { background-image: url("images/qrcode-peter-linkedin.jpg"); }
-            .cube__face--top    { background-image: url("images/qrcode-peter-whatsapp.png"); }
-            .cube__face--bottom { background-image: url("images/qrcode-peter-wechat.jpg"); }
+            .cube__face--front  { background-image: url("images/new-qrcode-peter-x.png"); }
+            .cube__face--right  { background-image: url("images/new-qrcode-peter-threads.png"); }
+            .cube__face--back   { background-image: url("images/new-qrcode-peter-instagram.png"); }
+            .cube__face--left   { background-image: url("images/new-qrcode-peter-linkedin.png"); }
+            .cube__face--top    { background-image: url("images/new-qrcode-peter-whatsapp.png"); }
+            .cube__face--bottom { background-image: url("images/new-qrcode-peter-wechat.jpg"); }
 
             .cube__face--front  { transform: rotateY(  0deg) translateZ(100px); }
             .cube__face--right  { transform: rotateY( 90deg) translateZ(100px); }
@@ -100,6 +102,17 @@
             .cube__face--left   { transform: rotateY(-90deg) translateZ(100px); }
             .cube__face--top    { transform: rotateX( 90deg) translateZ(100px); }
             .cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+            .cube__face--front,
+            .cube__face--right,
+            .cube__face--back,
+            .cube__face--left,
+            .cube__face--top,
+            .cube__face--bottom { 
+                background-size:     cover;                    
+                background-repeat:   no-repeat;
+                background-position: center center;
+            }
 
             .person-name {
                 font-size: 150%;
